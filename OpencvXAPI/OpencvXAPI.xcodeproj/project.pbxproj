@@ -12,7 +12,7 @@
 		9C03D548157E084D0036098A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C03D547157E084D0036098A /* CoreGraphics.framework */; };
 		9C03D54E157E084D0036098A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C03D54C157E084D0036098A /* InfoPlist.strings */; };
 		9C03D550157E084D0036098A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03D54F157E084D0036098A /* main.m */; };
-		9C03D554157E084D0036098A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03D553157E084D0036098A /* AppDelegate.m */; };
+		9C39059B157F5DC5006A7315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C39059A157F5DC5006A7315 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		9C03D54D157E084D0036098A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C03D54F157E084D0036098A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C03D551157E084D0036098A /* OpencvXAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpencvXAPI-Prefix.pch"; sourceTree = "<group>"; };
-		9C03D552157E084D0036098A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		9C03D553157E084D0036098A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		9C390599157F5DC5006A7315 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OpencvXAPI/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9C39059A157F5DC5006A7315 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OpencvXAPI/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		9C03D55B157E090E0036098A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9C03D552157E084D0036098A /* AppDelegate.h */,
-				9C03D553157E084D0036098A /* AppDelegate.m */,
+				9C390599157F5DC5006A7315 /* AppDelegate.h */,
+				9C39059A157F5DC5006A7315 /* AppDelegate.m */,
 			);
 			name = Controller;
 			path = Classes/Controller;
@@ -198,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C03D550157E084D0036098A /* main.m in Sources */,
-				9C03D554157E084D0036098A /* AppDelegate.m in Sources */,
+				9C39059B157F5DC5006A7315 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +338,7 @@
 				9C03D559157E084D0036098A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
