@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C03D544157E084D0036098A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C03D543157E084D0036098A /* UIKit.framework */; };
+		9C03D546157E084D0036098A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C03D545157E084D0036098A /* Foundation.framework */; };
+		9C03D548157E084D0036098A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C03D547157E084D0036098A /* CoreGraphics.framework */; };
+		9C03D54E157E084D0036098A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C03D54C157E084D0036098A /* InfoPlist.strings */; };
+		9C03D550157E084D0036098A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03D54F157E084D0036098A /* main.m */; };
+		9C03D554157E084D0036098A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03D553157E084D0036098A /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C03D53F157E084D0036098A /* OpencvXAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpencvXAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C03D543157E084D0036098A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C03D545157E084D0036098A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C03D547157E084D0036098A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C03D54B157E084D0036098A /* OpencvXAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpencvXAPI-Info.plist"; sourceTree = "<group>"; };
+		9C03D54D157E084D0036098A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C03D54F157E084D0036098A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C03D551157E084D0036098A /* OpencvXAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpencvXAPI-Prefix.pch"; sourceTree = "<group>"; };
+		9C03D552157E084D0036098A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		9C03D553157E084D0036098A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C03D53C157E084D0036098A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C03D544157E084D0036098A /* UIKit.framework in Frameworks */,
+				9C03D546157E084D0036098A /* Foundation.framework in Frameworks */,
+				9C03D548157E084D0036098A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C03D534157E084D0036098A = {
+			isa = PBXGroup;
+			children = (
+				9C03D549157E084D0036098A /* OpencvXAPI */,
+				9C03D542157E084D0036098A /* Frameworks */,
+				9C03D540157E084D0036098A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C03D540157E084D0036098A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C03D53F157E084D0036098A /* OpencvXAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C03D542157E084D0036098A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C03D55E157E094F0036098A /* TPFramework */,
+				9C03D543157E084D0036098A /* UIKit.framework */,
+				9C03D545157E084D0036098A /* Foundation.framework */,
+				9C03D547157E084D0036098A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C03D549157E084D0036098A /* OpencvXAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9C03D55A157E090E0036098A /* API */,
+				9C03D55B157E090E0036098A /* Controller */,
+				9C03D55C157E090E0036098A /* Model */,
+				9C03D55D157E090E0036098A /* View */,
+				9C03D54A157E084D0036098A /* Supporting Files */,
+			);
+			path = OpencvXAPI;
+			sourceTree = "<group>";
+		};
+		9C03D54A157E084D0036098A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C03D54B157E084D0036098A /* OpencvXAPI-Info.plist */,
+				9C03D54C157E084D0036098A /* InfoPlist.strings */,
+				9C03D54F157E084D0036098A /* main.m */,
+				9C03D551157E084D0036098A /* OpencvXAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C03D55A157E090E0036098A /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			path = Classes/API;
+			sourceTree = "<group>";
+		};
+		9C03D55B157E090E0036098A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C03D552157E084D0036098A /* AppDelegate.h */,
+				9C03D553157E084D0036098A /* AppDelegate.m */,
+			);
+			name = Controller;
+			path = Classes/Controller;
+			sourceTree = "<group>";
+		};
+		9C03D55C157E090E0036098A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		9C03D55D157E090E0036098A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+		9C03D55E157E094F0036098A /* TPFramework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TPFramework;
+			path = OpencvXAPI/TPFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C03D53E157E084D0036098A /* OpencvXAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C03D557157E084D0036098A /* Build configuration list for PBXNativeTarget "OpencvXAPI" */;
+			buildPhases = (
+				9C03D53B157E084D0036098A /* Sources */,
+				9C03D53C157E084D0036098A /* Frameworks */,
+				9C03D53D157E084D0036098A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpencvXAPI;
+			productName = OpencvXAPI;
+			productReference = 9C03D53F157E084D0036098A /* OpencvXAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C03D536157E084D0036098A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Sohu.com;
+			};
+			buildConfigurationList = 9C03D539157E084D0036098A /* Build configuration list for PBXProject "OpencvXAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C03D534157E084D0036098A;
+			productRefGroup = 9C03D540157E084D0036098A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C03D53E157E084D0036098A /* OpencvXAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C03D53D157E084D0036098A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C03D54E157E084D0036098A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C03D53B157E084D0036098A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C03D550157E084D0036098A /* main.m in Sources */,
+				9C03D554157E084D0036098A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C03D54C157E084D0036098A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C03D54D157E084D0036098A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C03D555157E084D0036098A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/OpenCV/boost/include",
+					"$(SRCROOT)/OpenCV/opencv-build-ios-7599/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/OpenCV/opencv-build-ios-7599/lib/Debug";
+				OTHER_LDFLAGS = (
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_imgproc",
+					"-lopencv_legacy",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_video",
+					"-lzlib",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C03D556157E084D0036098A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/OpenCV/boost/include",
+					"$(SRCROOT)/OpenCV/opencv-build-ios-7599/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/OpenCV/opencv-build-ios-7599/lib/Release";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_imgproc",
+					"-lopencv_legacy",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_video",
+					"-lzlib",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C03D558157E084D0036098A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpencvXAPI/OpencvXAPI-Prefix.pch";
+				INFOPLIST_FILE = "OpencvXAPI/OpencvXAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C03D559157E084D0036098A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpencvXAPI/OpencvXAPI-Prefix.pch";
+				INFOPLIST_FILE = "OpencvXAPI/OpencvXAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C03D539157E084D0036098A /* Build configuration list for PBXProject "OpencvXAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C03D555157E084D0036098A /* Debug */,
+				9C03D556157E084D0036098A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C03D557157E084D0036098A /* Build configuration list for PBXNativeTarget "OpencvXAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C03D558157E084D0036098A /* Debug */,
+				9C03D559157E084D0036098A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C03D536157E084D0036098A /* Project object */;
+}
